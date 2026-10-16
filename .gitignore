@@ -1,0 +1,6 @@
+shots/
+node_modules/
+/datacenter.html
+/datacenter-dark.html
+/datacenter-artifact.html
+.DS_Store

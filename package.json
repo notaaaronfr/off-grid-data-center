@@ -1,0 +1,10 @@
+{
+  "name": "datacenter-anatomy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs --dark && node build.mjs && cp datacenter-dark.html docs/dark.html",
+    "serve": "python3 -m http.server 8137 --directory docs",
+    "start": "npm run build && npm run serve"
+  }
+}
